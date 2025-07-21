@@ -1,0 +1,44 @@
+.hero {
+    position: relative;
+    height: 50vh;
+    min-height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect width="1200" height="600" fill="%232a2a2a"/><circle cx="300" cy="200" r="50" fill="%234a4a4a"/><circle cx="900" cy="400" r="80" fill="%233a3a3a"/><rect x="200" y="300" width="800" height="100" fill="%235a5a5a"/></svg>');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-content {
+    text-align: center;
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: -0.02em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        height: 40vh;
+        min-height: 300px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+}
