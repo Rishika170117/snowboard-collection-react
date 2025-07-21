@@ -53,44 +53,6 @@
 
 ### Build for Production
 
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory.
-
-## 📁 Project Structure
-
-```
-snowboard-collection-react/
-├── src/
-│   ├── components/           # React components
-│   │   ├── Hero.jsx         # Hero section component
-│   │   ├── Hero.css         # Hero styles
-│   │   ├── ProductHeader.jsx # Product count and sort
-│   │   ├── ProductHeader.css # Header styles
-│   │   ├── EmptyState.jsx   # Empty state component
-│   │   ├── EmptyState.css   # Empty state styles
-│   │   ├── LoadingState.jsx # Loading component
-│   │   ├── LoadingState.css # Loading styles
-│   │   ├── ErrorState.jsx   # Error component
-│   │   ├── ErrorState.css   # Error styles
-│   │   ├── ProductCard.jsx  # Individual product card
-│   │   ├── ProductCard.css  # Product card styles
-│   │   ├── ProductGrid.jsx  # Product grid container
-│   │   └── ProductGrid.css  # Grid styles
-│   ├── services/            # API and external services
-│   │   └── api.js          # Product API integration
-│   ├── utils/              # Utility functions
-│   │   └── helpers.js      # Helper functions
-│   ├── App.jsx             # Main App component
-│   ├── App.css             # App styles
-│   ├── main.jsx            # React entry point
-│   └── index.css           # Global styles
-├── public/                 # Static assets
-├── package.json            # Dependencies and scripts
-└── README.md              # This file
-```
 
 ## 🎨 Component Architecture
 
